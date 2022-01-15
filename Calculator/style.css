@@ -1,0 +1,70 @@
+.container {
+    position: relative;
+    height: 440px;
+    width: 280px;
+    padding: 5px;
+    /* border:solid 1px black; */
+    /* background-color: rgb(206, 213, 212) */
+}
+.display-1 {
+    position: absolute;
+    height: 50px;
+    width: inherit;
+    border-top:solid 1px black;
+    border-bottom:solid 1px black;
+    text-align: right;
+    font-size: 49px;
+    font-weight: 900;
+    top: 21px;
+}
+.display-2 {
+    width: inherit;
+    text-align: right;
+    font-weight: 600;
+}
+
+.button-container {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 240px;
+    top: 94px;
+}
+.number {
+    height: 70px;
+    width: 70px;
+    border: solid 1px black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(249, 245, 236)
+    
+}
+.operations-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 215px;
+    top: 94px;
+}
+.operation {
+    height: 70px;
+    width: 70px;
+    border: solid 1px black;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(214, 243, 236);
+    border-radius: 10px;
+}
+#c,#sqr,#erase,#negate,#dot{
+    background-color: rgb(214, 243, 236)
+}
+
+.btn:hover {
+    background-color: rgb(219, 216, 221) !important;
+    cursor:pointer;
+}
+
+.btn:active, .btn:focus {
+    outline: 0;
+}

@@ -1,0 +1,53 @@
+body {
+  background-color: #333;
+}
+
+.carousel-item {
+  height: calc(100vh - 142px);
+}
+
+.carousel-item img {
+  object-fit: cover;
+  min-height: calc(100vh - 142px);
+  opacity: 0.5;
+}
+
+.object-position-bottom {
+  object-position: bottom;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+}
+
+.navbar {
+  background-color: rgb(103, 103, 151);
+}
+
+.shopping-card-items {
+  color: white;
+}
+
+.card {
+  width: 16rem;
+}
+
+.card img {
+  width: 80%;
+  transform: scale(1);
+  transition: 0.3s;
+}
+
+.card:hover img {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+.center {
+  margin: 0 auto;
+}
+.success-alert {
+  right: 12%;
+  z-index: 2;
+  bottom: 15vh;
+}
